@@ -9,7 +9,10 @@ appBar() {
       style: TextStyle(color: Colors.black87),
     ),
     actions: [
-      Icon(Icons.notification_important),
+      IconButton(
+        icon: Icon(Icons.notification_important),
+        onPressed: () {},
+      )
     ],
   );
 }

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:my_emergency/widgets/appbar.dart';
-import 'package:my_emergency/widgets/floating_button.dart';
-import 'package:my_emergency/widgets/slideshow.dart';
-import 'widgets/crimes.dart';
-import 'widgets/emergency_catagory.dart';
-import 'widgets/floating_button.dart';
-import 'widgets/addvertise.dart';
+import 'package:my_emergency/widgets/main/appbar.dart';
+import 'package:my_emergency/widgets/main/floating_button.dart';
+import 'package:my_emergency/widgets/main/slideshow.dart';
+import 'widgets/main/crimes.dart';
+import 'widgets/main/emergency_catagory.dart';
+import 'widgets/main/floating_button.dart';
+import 'widgets/main/addvertise.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -38,7 +38,7 @@ class _MainState extends State<Main> {
           //mainAxisSize: MainAxisSize.max,
           children: [
             slideshow(),
-            SizedBox(height: 20.0),
+            SizedBox(height: 10.0),
             Container(
               alignment: Alignment.center,
               padding: EdgeInsets.all(10.0),
@@ -51,7 +51,7 @@ class _MainState extends State<Main> {
                 children: emergencyCatagory(),
               ),
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 10.0),
             addvertise(),
             SizedBox(height: 10.0),
             Container(

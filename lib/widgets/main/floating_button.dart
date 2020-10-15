@@ -13,17 +13,17 @@ toastForFloatingButton() {
   );
 }
 
-emergencyConditionsForFloatingButton() {
-  print('Emergency Conditions');
+emergencySignal() {
+  print('Emergency Signal');
 }
 
 var floatingButton = FloatingActionButton.extended(
-  backgroundColor: Colors.red[200],
-  elevation: 1,
+  backgroundColor: Colors.red[300],
+  elevation: 6,
   isExtended: true,
   label: Text('Emergency'),
   onPressed: () {
-    emergencyConditionsForFloatingButton();
+    emergencySignal();
     toastForFloatingButton();
   },
 );
