@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-List<Widget> emergency() {
+List<Widget> emergencyCatagory() {
   card(text) {
     return Card(
       color: Colors.red[100],
